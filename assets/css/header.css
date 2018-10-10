@@ -1,6 +1,5 @@
 .slider{
-	border-top: 5px solid #df891e;
-	position: relative !important;
+	display: none;
 }
 
 .carousel-images img{
@@ -21,11 +20,44 @@
 	opacity: .3;
 }
 
+.logo img{
+	width: 50px;
+	float: left;
+	margin: 10px 0 0 0;
+}
+
+
+.nav{	
+  display: none;
+}
+
+
+.menu-mobile{
+	font-size: 3em;
+	color: #171717;
+	float: right;
+	margin: 8px 0 0 0;
+}
 
 
 
 /**************************************************************************************************/
 @media screen and (min-width: 720px) {
+
+.menu-mobile{
+	display: none;
+}	
+
+.slider{
+	display: block;
+	border-top: 5px solid #df891e;
+	position: relative !important;
+}	
+
+
+.logo img{
+	width: 115px;
+}
 
 .carousel-images img{
 	max-height: 620px;
