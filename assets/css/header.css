@@ -1,5 +1,7 @@
 .slider{
-	display: none;
+	display: block;
+	overflow: hidden;
+	width: 100%;
 }
 
 .carousel-images img{
@@ -7,8 +9,55 @@
 	height: auto;	
 }
 
+.carousel-control-next, .carousel-control-prev{
+	display: none;
+}
+
 
 .carousel-images-overlay{
+	display: none;
+}
+
+.logo img{
+	width: 50px;
+	float: left;
+	margin: 15px 0 0 0;
+	background-color: #ccc;
+}
+
+.slider-frase{
+	display: none;
+}
+
+
+
+.nav{	
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+/**************************************************************************************************/
+@media screen and (min-width: 720px) {
+
+.nav-flex{
+	display: none;
+}	
+
+.slider{
+	display: block;
+	border-top: 5px solid #df891e;
+	position: relative !important;
+}
+
+.carousel-images-overlay{
+	display: block;
 	background-image: url(../images/bg/pattern01.png);
 	background-repeat: repeat;
 	position: absolute;
@@ -21,42 +70,8 @@
 }
 
 .logo img{
-	width: 50px;
-	float: left;
-	margin: 10px 0 0 0;
-}
-
-
-.nav{	
-  display: none;
-}
-
-
-.menu-mobile{
-	font-size: 3em;
-	color: #171717;
-	float: right;
-	margin: 8px 0 0 0;
-}
-
-
-
-/**************************************************************************************************/
-@media screen and (min-width: 720px) {
-
-.menu-mobile{
-	display: none;
-}	
-
-.slider{
-	display: block;
-	border-top: 5px solid #df891e;
-	position: relative !important;
-}	
-
-
-.logo img{
 	width: 115px;
+	margin: 0;
 }
 
 .carousel-images img{
@@ -146,6 +161,7 @@
 }
 
 .slider-frase{
+	display: block;
 	position: absolute;
 	z-index: 5;
 	color: #fff;
@@ -159,6 +175,9 @@
 .slider-frase span{
 	color: #df891e;
 }
+
+
+
 
 
 }
