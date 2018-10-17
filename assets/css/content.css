@@ -156,6 +156,74 @@
 
 
 
+/* NOSSOS SERVIÇOS */
+
+.nossosservicos{
+	width: 100%;
+}
+
+.nossosservicos-titu{
+	border-left: 14px solid #171717;
+	padding: 0 0 0 10px;
+	line-height: 10px;
+	margin: 40px auto 40px auto;
+	width: 70%;
+}
+
+
+.nossosservicos-titu h1{
+	color: #df9130;
+	font-size: 3em;
+	text-align: center;
+}
+
+
+.nossosservicos-titu span{
+	color: #171717;
+	font-size: 1em;
+	font-family: 'droid_serifregular', sans-serif;
+	margin: -17px 0 0 0;
+	text-align: center;
+	display: block;
+	float: left;
+}
+
+.nossosservicos-cont{
+	background-color: #ededed;
+	width: 100%;
+	padding: 30px 10%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.nossosservicos-bloc{
+	width: 270px;
+	height: 390px;
+	background-color: #e0e0e0;
+	padding: 5px 10px;
+	margin: 0 0 20px 0;
+
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease; 	
+}
+
+.nossosservicos-bloc:hover{
+	background-color: #ededed;
+}
+
+.nossosservicos-bloc p{
+	font-family: 'droid_serifregular', sans-serif;	
+}
+
+
+
+
+
+
 
 /**************************************************************************************************/
 @media screen and (min-width: 720px) {
@@ -330,6 +398,74 @@
 .venhaconhecer a:hover{
 	color: #df9130;
 	background-color: #fff;
+}
+
+
+
+
+
+/* NOSSOS SERVIÇOS */
+
+.nossosservicos{
+	width: 100%;
+}
+
+.nossosservicos-titu{
+	float: left;
+	border-left: 14px solid #171717;
+	padding: 0 0 0 10px;
+	line-height: 10px;
+	margin: 70px 0;
+	width: 35%;
+}
+
+
+.nossosservicos-titu h1{
+	color: #df9130;
+	font-size: 3.5em;
+	text-align: left;
+}
+
+
+.nossosservicos-titu span{
+	color: #171717;
+	font-size: 1.3em;
+	font-family: 'droid_serifregular', sans-serif;
+	margin: -17px 0 0 0;
+	text-align: left;
+	display: block;
+	float: left;
+}
+
+.nossosservicos-cont{
+	background-color: #ededed;
+	width: 100%;
+	padding: 30px 10%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.nossosservicos-bloc{
+	width: 270px;
+	height: 390px;
+	background-color: #e0e0e0;
+	padding: 5px 10px;
+	margin: 0 0 20px 0;
+
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease; 	
+}
+
+.nossosservicos-bloc:hover{
+	background-color: #ededed;
+}
+
+.nossosservicos-bloc p{
+	font-family: 'droid_serifregular', sans-serif;	
 }
 
 
