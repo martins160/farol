@@ -1,3 +1,5 @@
+/*MODULO AGENCIA*/
+
 .agencia-imagem img{
 	margin: 10px 0;
 }
@@ -32,12 +34,107 @@
 }
 
 
+
+
+
+
+/*O QUE FAZEMOS*/
+
+.oquefazemos{
+	width: 100%;
+}
+
+.oquefazemos-titu{
+	border-left: 14px solid #171717;
+	padding: 0 0 0 0px;
+	line-height: 10px;
+	margin: 50px auto 50px auto;
+	width: 85%;
+}
+
+.oquefazemos-titu h1{
+	color: #df9130;
+	font-size: 3em;
+	text-align: center;
+}
+
+.oquefazemos-titu span{
+	color: #171717;
+	font-size: 1.3em;
+	font-family: 'droid_serifregular', sans-serif;
+	margin: -15px 0 0 0;
+	text-align: center;
+	display: block;
+}
+
+.oquefazemos-flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.oquefazemos-flex img{
+	margin: 0 0 10px 0;
+}
+
+.oquefazemos-image{
+	position: relative;
+}
+
+.oquefazemos-overlay{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 96%;
+	cursor: pointer;
+	background-color: rgba(223,145,48,.8);
+
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease; 	
+}
+
+.oquefazemos-overlay:hover{
+	background-color: rgba(223,145,48,.8);	
+}
+
+.oquefazemos-txt1, 
+.oquefazemos-txt2{
+	position: absolute;
+	z-index: 2;
+	color: #fff;
+	width: 100%;
+	top: 50%;
+	text-align: center;
+}
+
+.oquefazemos-overlay:hover .oquefazemos-txt1, 
+.oquefazemos-overlay:hover .oquefazemos-txt2{
+	display: block;	
+}
+
+.oquefazemos-txt1{
+	top: 37%;
+	font-size: 1.3em
+}
+
+
+
+
+
+
+
 /**************************************************************************************************/
 @media screen and (min-width: 720px) {
 
 
+/*MODULO AGENCIA*/
+
 .agencia{
 	width: 100%;
+	margin: 70px 0 0 0;
 }
 
 .agencia-imagem img{
@@ -75,6 +172,99 @@
 	margin: 15px 0 0 0;
 	font-size: 1.1em;
 	color: #e38818;
+}
+
+
+
+
+
+
+/*O QUE FAZEMOS*/
+
+.oquefazemos{
+	width: 100%;
+}
+
+.oquefazemos-titu{
+	float: right;
+	border-left: 14px solid #171717;
+	padding: 0 0 0 10px;
+	line-height: 10px;
+	margin: 70px 0;
+	width: 25%;
+}
+
+
+.oquefazemos-titu h1{
+	color: #df9130;
+	font-size: 3.5em;
+	text-align: left;
+}
+
+
+.oquefazemos-titu span{
+	color: #171717;
+	font-size: 1.3em;
+	font-family: 'droid_serifregular', sans-serif;
+	margin: -17px 0 0 0;
+	text-align: left;
+	display: block;
+	float: left;
+}
+
+
+.oquefazemos-flex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.oquefazemos-flex img{
+	margin: 0 0 10px 0;
+}
+
+.oquefazemos-image{
+	position: relative;
+}
+
+.oquefazemos-overlay{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 220px;
+	background-color: rgba(223,145,48,.0);		
+	cursor: pointer;
+
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease; 	
+}
+
+.oquefazemos-overlay:hover{
+	background-color: rgba(223,145,48,.8);	
+}
+
+.oquefazemos-txt1, 
+.oquefazemos-txt2{
+	position: absolute;
+	z-index: 2;
+	color: #fff;
+	width: 100%;
+	top: 50%;
+	text-align: center;
+	display: none;
+}
+
+.oquefazemos-overlay:hover .oquefazemos-txt1, 
+.oquefazemos-overlay:hover .oquefazemos-txt2{
+	display: block;	
+}
+
+.oquefazemos-txt1{
+	top: 40%;
+	font-size: 1.3em
 }
 
 
