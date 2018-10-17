@@ -221,6 +221,56 @@
 
 
 
+/* CLIENTES */
+
+.clientes{
+	width: 100%;
+}
+
+.clientes-titu{
+	border-left: 14px solid #171717;
+	padding: 0 0 0 10px;
+	line-height: 10px;
+	margin: 40px auto 40px auto;
+	width: 60%;
+}
+
+
+.clientes-titu h1{
+	color: #df9130;
+	font-size: 3em;
+	text-align: center;
+}
+
+
+.clientes-titu span{
+	color: #171717;
+	font-size: 1em;
+	font-family: 'droid_serifregular', sans-serif;
+	margin: -17px 0 0 0;
+	text-align: center;
+	display: block;
+	
+}
+
+.clientes-flex{
+	padding: 30px 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.clientes-bloc{
+	width: 50%;
+	margin: 0 0 20px 0;
+}
+
+
+
+
+
+
 
 
 /**************************************************************************************************/
@@ -464,6 +514,57 @@
 
 .nossosservicos-bloc p{
 	font-family: 'droid_serifregular', sans-serif;	
+}
+
+
+
+
+
+
+/* CLIENTES */
+
+.clientes{
+	width: 100%;
+}
+
+.clientes-titu{
+	border-left: 14px solid #171717;
+	padding: 0 0 0 10px;
+	line-height: 10px;
+	margin: 70px auto 50px auto;
+	width: 26%;
+}
+
+
+.clientes-titu h1{
+	color: #df9130;
+	font-size: 4em;
+	text-align: center;
+}
+
+
+.clientes-titu span{
+	color: #171717;
+	font-size: 1.3em;
+	font-family: 'droid_serifregular', sans-serif;
+	margin: -17px 0 0 0;
+	text-align: center;
+	display: block;
+	
+}
+
+.clientes-flex{
+	padding: 40px 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.clientes-bloc{
+	width: 25%;
+	margin: 0 0 40px 0;
 }
 
 
