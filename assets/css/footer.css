@@ -1,0 +1,268 @@
+footer{
+	width: 100%;
+	padding: 30px 0 20px 0;
+	margin: 20px 0 0 0;
+}
+
+.footer{
+	background-image: url(../images/bg/bg-footer.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+	position: relative;
+}
+
+.footer-images-overlay{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.9);
+}	
+
+.faleconosco-titu{
+	color: #fff;
+	font-size: 3em;
+	float: left;
+	border-left: 10px solid #df9130;
+	height: 57px;
+	margin: 0 0 40px 0;
+	padding: 0 0 0 10px;
+}
+
+
+
+
+.falecom input[type="text"],
+.falecom input[type="email"],
+.falecom input[type="tel"]{
+	border: 1px solid #df9130;
+    border-radius: 0;
+    background: none;
+    color: #df9130;
+    padding: 22px 20px 15px 20px;
+    font-size: 1.2em;
+}
+
+
+.falecom textarea{
+	border: 1px solid #df9130;
+    border-radius: 0;
+    background: none;
+    color: #df9130;
+    padding: 15px 20px 15px 20px;
+    font-size: 1.2em;    
+}
+
+.form-control::-webkit-input-placeholder { color: white; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
+
+
+.btn-enviar{
+	background-color: #df9130;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 2em;
+	padding: 10px 10px 0px 10px;
+	float: left;
+	margin: 10px 0 0 0;
+}
+
+.btn-enviar:hover{
+	background-color: #fff;
+	color: #df9130;
+}
+
+.contato-logo{
+	margin: 30px 0 0 0;
+}
+
+.contato-end{
+	color: #fff;
+	width: 300px;
+	font-family: 'droid_serifregular', sans-serif;
+	font-size: 1.5em;
+	margin: 30px auto 60px auto;	
+}
+
+.contato-social{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.contato-social a{
+	background-color: #fff;
+	color: #df9130;
+	font-size: 2.1em;
+	width: 55px;
+	height: 55px;
+	padding: 8px 1px 0px 1px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;	
+	float: left;
+	margin: 0 10px;
+}
+
+.contato-social a:hover{
+	background-color: #df9130;
+	color: #fff;
+
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);	
+}
+
+.copy{
+	margin: 40px 0 0 0;
+}
+
+
+
+
+
+/**************************************************************************************************/
+@media screen and (min-width: 720px) {
+
+
+footer{
+	width: 100%;
+	padding: 70px 0 20px 0;
+	margin: 80px 0 0 0;
+}
+
+.footer{
+	background-image: url(../images/bg/bg-footer.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+	min-height: 500px;
+	position: relative;
+}
+
+.footer-images-overlay{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.9);
+}	
+
+.faleconosco-titu{
+	color: #fff;
+	font-size: 3.2em;
+	float: left;
+	border-left: 10px solid #df9130;
+	height: 57px;
+	margin: 0 0 40px 0;
+	padding: 0 0 0 10px;
+}
+
+
+
+
+.falecom input[type="text"],
+.falecom input[type="email"],
+.falecom input[type="tel"]{
+	border: 1px solid #df9130;
+    border-radius: 0;
+    background: none;
+    color: #df9130;
+    padding: 22px 20px 15px 20px;
+    font-size: 1.2em;
+}
+
+
+.falecom textarea{
+	border: 1px solid #df9130;
+    border-radius: 0;
+    background: none;
+    color: #df9130;
+    padding: 15px 20px 15px 20px;
+    font-size: 1.2em;    
+}
+
+.form-control::-webkit-input-placeholder { color: white; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
+
+
+.btn-enviar{
+	background-color: #df9130;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 2em;
+	padding: 15px 20px 5px 20px;
+	float: left;
+	margin: 10px 0 0 0;
+}
+
+.btn-enviar:hover{
+	background-color: #fff;
+	color: #df9130;
+}
+
+.contato-logo{
+	margin: 0px 0 0 0;
+}
+
+.contato-end{
+	color: #fff;
+	width: 300px;
+	font-family: 'droid_serifregular', sans-serif;
+	font-size: 1.5em;
+	margin: 50px auto 60px auto;	
+}
+
+.contato-social{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.contato-social a{
+	background-color: #fff;
+	color: #df9130;
+	font-size: 2.1em;
+	width: 55px;
+	height: 55px;
+	padding: 8px 1px 0px 1px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;	
+	float: left;
+	margin: 0 10px;
+}
+
+.contato-social a:hover{
+	background-color: #df9130;
+	color: #fff;
+
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);	
+}
+
+.copy{
+	margin: 40px 0 0 0;
+}
+
+
+
+
+
+}

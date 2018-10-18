@@ -272,6 +272,23 @@
 
 
 
+/* VIDEOS */
+
+.video img{
+	padding: 10px;
+
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease; 	
+}
+
+.video img:hover{
+	background-color: #f79220;
+}
+
+
+
+
 
 /**************************************************************************************************/
 @media screen and (min-width: 720px) {
@@ -577,6 +594,24 @@
 
 .clientes-bloc img:hover{
 	opacity: 1;
+}
+
+
+
+
+
+/* VIDEOS */
+
+.video img{
+	padding: 10px;
+
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease; 	
+}
+
+.video img:hover{
+	background-color: #f79220;
 }
 
 
