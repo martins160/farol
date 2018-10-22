@@ -1,0 +1,157 @@
+/*.header-pages{
+	width: 100%;
+	background-color: #fff !important;
+	margin: 0;
+	position: absolute;
+	z-index: 1;
+
+}
+
+.slider-page{
+	background-color: #000;
+	height: 10px;
+	z-index: -1;
+	display: block;
+	border-top: 5px solid #df891e;
+	position: relative !important;	
+}
+
+
+.page-content{
+	width: 100%;
+	margin: 50px 0 -30px 0 !important;
+	padding: 50px 0 30px 0;
+}
+
+
+.page-titu{
+	text-align: center;
+	padding: 10px 10px 0px 10px;
+	background-color: #171717;
+	border-left: 10px solid #df891e;
+	color: #fff;
+	font-size: 2.5em;
+}
+
+.page-conteudo{
+	width: 100%;
+	float: left;
+	margin: 30px 0 0 0;
+	text-align: left;
+}
+
+.page-conteudo p{
+	font-size: 1.3em;
+}*/
+
+
+.slider-page{
+	display: block;
+	overflow: hidden;
+	width: 100%;
+}
+
+.page-conteudo{
+	padding: 30px 0 0 0;
+}
+
+.page-titu{
+	text-align: left;
+	padding: 15px 15px 0px 15px;
+	background-color: #171717;
+	border-left: 10px solid #df891e;
+	color: #fff;
+	font-size: 2em;
+	float: left;	
+	margin: 0 0 20px 0;
+}
+
+.page-content{
+	font-size: 1.3em;
+	text-align: left;
+}
+
+
+
+/**************************************************************************************************/
+@media screen and (min-width: 720px) {
+
+
+.slider-page{
+	display: block;
+	border-top: 5px solid #df891e;
+	height: 190px;
+	background-image: url(../images/bg/01.jpg);
+}
+
+.page-conteudo{
+	padding: 60px 0 0 0;
+}
+
+.page-titu{
+	text-align: left;
+	padding: 15px 15px 0px 15px;
+	background-color: #171717;
+	border-left: 10px solid #df891e;
+	color: #fff;
+	font-size: 2.8em;
+	float: left;	
+	margin: 0 0 30px 0;
+}
+
+.page-content{
+	font-size: 1.6em;
+	text-align: left;
+}
+
+/*
+.header-pages{
+	width: 100%;
+	background-color: #ccc !important;
+	margin: 0;
+	position: absolute;
+	z-index: 1;
+
+}
+
+
+.slider-page{
+	background-color: #000;
+	height: 190px;
+	z-index: 0;
+	display: block;
+	border-top: 5px solid #df891e;
+	position: relative !important;	
+}
+
+
+.page-content{
+	width: 100%;
+	margin: 50px 0 -30px 0 !important;
+	padding: 0;
+}
+
+.page-titu{
+	text-align: left;
+	padding: 15px 15px 0px 15px;
+	background-color: #171717;
+	border-left: 10px solid #df891e;
+	color: #fff;
+	font-size: 2.8em;
+	float: left;
+}
+
+.page-conteudo{
+	width: 100%;
+	float: left;
+	margin: 40px 0 0 0;
+	text-align: left;
+}
+
+.page-conteudo p{
+	font-size: 1.7em;
+}
+*/
+
+
+}
